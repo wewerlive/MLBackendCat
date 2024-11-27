@@ -1,0 +1,382 @@
+{
+    "products": [
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec9341e9"
+        },
+        "product_id": 1,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/1.jpg",
+        "product_name": "Vans purple t-shirt",
+        "product_type": "top"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec9341ea"
+        },
+        "product_id": 2,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/2.jpg",
+        "product_name": "Fila red t-shirt",
+        "product_type": "top"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec9341eb"
+        },
+        "product_id": 3,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/3.jpg",
+        "product_name": "Black stripped t-shirt",
+        "product_type": "top"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec9341ec"
+        },
+        "product_id": 4,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/4.jpg",
+        "product_name": "Floral t-shirt",
+        "product_type": "top"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec9341ed"
+        },
+        "product_id": 5,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/5.jpg",
+        "product_name": "Yellow top",
+        "product_type": "top"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec9341ee"
+        },
+        "product_id": 6,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/6.jpg",
+        "product_name": "Red floral top",
+        "product_type": "top"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec9341ef"
+        },
+        "product_id": 7,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/7.jpg",
+        "product_name": "Black graphic t-shirt",
+        "product_type": "top"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec9341f0"
+        },
+        "product_id": 8,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/8.jpg",
+        "product_name": "Black dog t-shirt",
+        "product_type": "top"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec9341f1"
+        },
+        "product_id": 9,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/9.jpg",
+        "product_name": "White dress",
+        "product_type": "dress"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec9341f2"
+        },
+        "product_id": 10,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/10.jpg",
+        "product_name": "White follow the sun t-shirt",
+        "product_type": "top"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec9341f3"
+        },
+        "product_id": 11,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/11.jpg",
+        "product_name": "Reebok white top",
+        "product_type": "top"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec9341f4"
+        },
+        "product_id": 12,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/12.jpg",
+        "product_name": "White bora t-shirt",
+        "product_type": "top"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec9341f5"
+        },
+        "product_id": 13,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/13.jpg",
+        "product_name": "Orange Blue top",
+        "product_type": "top"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec9341f6"
+        },
+        "product_id": 14,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/14.jpg",
+        "product_name": "White minnie t-shirt",
+        "product_type": "top"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec9341f7"
+        },
+        "product_id": 15,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/15.jpg",
+        "product_name": "White floral top",
+        "product_type": "top"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec9341f8"
+        },
+        "product_id": 16,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/16.jpg",
+        "product_name": "Zebra Stripped top",
+        "product_type": "top"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec9341f9"
+        },
+        "product_id": 17,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/17.jpg",
+        "product_name": "Purple full sleeve top",
+        "product_type": "top"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec9341fa"
+        },
+        "product_id": 18,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/18.jpg",
+        "product_name": "Pink top",
+        "product_type": "top"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec9341fb"
+        },
+        "product_id": 19,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/19.jpg",
+        "product_name": "White dress with black belt",
+        "product_type": "dress"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec9341fc"
+        },
+        "product_id": 20,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/20.jpg",
+        "product_name": "Pink flowy top",
+        "product_type": "top"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec9341fd"
+        },
+        "product_id": 21,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/21.jpg",
+        "product_name": "Industry half shirt",
+        "product_type": "top"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec9341fe"
+        },
+        "product_id": 22,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/22.jpg",
+        "product_name": "Black flowery top",
+        "product_type": "top"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec9341ff"
+        },
+        "product_id": 23,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/23.jpg",
+        "product_name": "Black top",
+        "product_type": "top"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec934200"
+        },
+        "product_id": 24,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/24.jpg",
+        "product_name": "Armani Exchange white top",
+        "product_type": "top"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec934201"
+        },
+        "product_id": 25,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/25.jpg",
+        "product_name": "Navy blue mountain t-shirt",
+        "product_type": "top"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec934202"
+        },
+        "product_id": 26,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/26.jpg",
+        "product_name": "Balenciaga green top",
+        "product_type": "top"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec934203"
+        },
+        "product_id": 27,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/27.jpg",
+        "product_name": "Stripped pant",
+        "product_type": "bottom"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec934204"
+        },
+        "product_id": 28,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/28.jpg",
+        "product_name": "Rug print pant",
+        "product_type": "bottom"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec934205"
+        },
+        "product_id": 29,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/29.jpg",
+        "product_name": "Happy face print pant",
+        "product_type": "bottom"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec934206"
+        },
+        "product_id": 30,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/30.jpg",
+        "product_name": "White pant with black floral print",
+        "product_type": "bottom"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec934207"
+        },
+        "product_id": 31,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/31.jpg",
+        "product_name": "Disaster jeans",
+        "product_type": "bottom"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec934208"
+        },
+        "product_id": 32,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/32.jpg",
+        "product_name": "Pink pant",
+        "product_type": "bottom"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec934209"
+        },
+        "product_id": 33,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/33.jpg",
+        "product_name": "White pant",
+        "product_type": "bottom"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec93420a"
+        },
+        "product_id": 34,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/34.jpg",
+        "product_name": "Gucci blue pant",
+        "product_type": "bottom"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec93420b"
+        },
+        "product_id": 35,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/35.jpg",
+        "product_name": "Floral black dress",
+        "product_type": "dress"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec93420c"
+        },
+        "product_id": 36,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/36.jpg",
+        "product_name": "Floral blue dress",
+        "product_type": "dress"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec93420d"
+        },
+        "product_id": 37,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/37.jpg",
+        "product_name": "Multicolored dress",
+        "product_type": "dress"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec93420e"
+        },
+        "product_id": 38,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/38.jpg",
+        "product_name": "Orange floral dress",
+        "product_type": "dress"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec93420f"
+        },
+        "product_id": 39,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/39.jpg",
+        "product_name": "Multicolored floral dress",
+        "product_type": "dress"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec934210"
+        },
+        "product_id": 40,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/40.jpg",
+        "product_name": "Green dress",
+        "product_type": "dress"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec934211"
+        },
+        "product_id": 41,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/41.jpg",
+        "product_name": "Dotted dress",
+        "product_type": "dress"
+      },
+      {
+        "_id": {
+          "$oid": "664e617e33a2343cec934212"
+        },
+        "product_id": 42,
+        "product_link": "https://ml2d-products.s3.ap-south-1.amazonaws.com/42.jpg",
+        "product_name": "White dotted floral dress",
+        "product_type": "dress"
+      }
+    ]
+  }
