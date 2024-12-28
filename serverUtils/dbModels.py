@@ -28,6 +28,19 @@ class Business(BaseModel):
     businessPassword: str
     # businessRequests: List[] = []
 
+class Product(BaseModel):
+    # id: Optional[PyObjectId] = Field(alias="_id", default=None)
+    businessId: str
+    product_id: str
+    product_name: str
+    product_image: str
+    product_page: str
+    product_type: str
+    product_category: str
+    gender: str
+    created_at: str
+
+
 # class APIKey(BaseModel):
 #     apiKey: str
 #     businessId: str

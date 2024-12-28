@@ -1,11 +1,12 @@
 from serverUtils.db import getDatabase
 from fastapi import APIRouter, Request
 from serverUtils.requestModels import BusinessRequest
-from serverUtils.dbModels import Business, TryRequestLog
+from serverUtils.dbModels import Business, TryRequestLog, Product
 from typing import List
 import datetime
 import uuid
 router = APIRouter()
+import json 
 
 @router.post("/createBusiness",response_model=Business)
 async def createBusiness(request: Request, businessReq: BusinessRequest):
@@ -38,3 +39,29 @@ async def getAllLogs(request: Request):
     logs = await db.find().to_list(None)
     print(logs)
     return logs
+
+@router.post("/addProducts")
+async def addProducts(request: Request):
+    db = getDatabase(request.app).get_collection("product")
+    businessDb = getDatabase(request.app).get_collection("business")
+    business = await businessDb.find_one({"businessName": "TwinverseBrand1"})
+    print(business)
+    f = open('products3.json', 'r')
+    data = json.load(f)
+    print(data)
+    f.close()
+    for product in data["products"]:
+        productObj = Product(
+            businessId=str(business["_id"]),
+            product_id=str(product["product_id"]),
+            product_name=product["product_name"],
+            product_image=product["product_link"],
+            product_page="",
+            product_type=product["product_type"],
+            product_category=product["product_category"],
+            gender=product["gender"],
+            created_at=str(datetime.datetime.now())
+        )
+        print(productObj.model_dump())
+        await db.insert_one(productObj.model_dump())
+    return {"status":"success"}

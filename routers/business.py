@@ -7,10 +7,10 @@ from serverUtils.modelUtils import predictTryOn
 from serverUtils.requestModels import TryRequest
 from concurrent.futures import ThreadPoolExecutor
 import asyncio
-
+from typing import List
 from serverUtils.awsUtils import s3, uploadImage
 from serverUtils.imageUtils import imageFromBase64, base64FromBytes,imageToBase64, imageFromBytes, imageToBytes, base64ToBytes
-
+from serverUtils.dbModels import Product
 import uuid 
 
 router = APIRouter()
@@ -115,3 +115,12 @@ async def tryon(request: Request, tryRequest: TryRequest, business: Business = D
         return {"result": resultString}
     # except Exception as e:
     #     raise HTTPException(status_code=500, detail=str(e))
+
+@router.get("/products")
+async def products(request:Request,business: Business = Depends(getBusinessUser), response_model=List[Product]):
+    product_collection = getDatabase(request.app).get_collection("product")
+    products = await product_collection.find({"businessId": str(business["_id"])}).to_list(None)
+    print(products)
+    for product in products:
+        product["_id"] = str(product["_id"])
+    return products
