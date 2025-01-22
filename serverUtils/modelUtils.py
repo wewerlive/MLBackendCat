@@ -57,8 +57,8 @@ def predictTryOn(personImage,clothImage,cloth_type,num_inference_steps=10,seed=-
     # cloth_image = Image.open(BytesIO(base64.b64decode(clothImage64.split(",")[1]))).resize((768, 1024))
     person_image = personImage.resize((imageWidth, imageHeight))
     cloth_image = clothImage.resize((imageWidth, imageHeight))
-    person_image.save("person.jpg")
-    cloth_image.save("cloth.jpg")
+    person_image.save("person.png")
+    cloth_image.save("cloth.png")
     mask = automasker(
             person_image,
             cloth_type
